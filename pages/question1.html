@@ -1,0 +1,27 @@
+<div class="questionbank">
+  <div class="askuser">
+    <!-- <p class="question">
+    </p> -->
+  </div>
+
+  <div class="answer">
+    <!-- <div class="selection" id="A"></div>
+    <div class="selection" id="B"></div>
+    <div class="selection" id="C"></div>
+    <div class="selection" id="D"></div> -->
+  </div>
+</div>
+
+<script>
+  $('.selection').mouseover(function () {
+    $(this).css("background", "white");
+  });
+
+  $('.selection').mouseleave(function () {
+    $(this).css("background", "aqua");
+  });
+
+  $('.selection').click(function () {
+    $(this).toggleClass("outselection");
+  });
+</script>

@@ -56,6 +56,9 @@ function ConmutarCheck() {
 $(document).ready(function () {
   $('#divContenido').load("pages/landing.html", ConmutarCheck);
 
+  //
+  // $('#divContenido').load("pages/landing.html", ConmutarCheck);
+
   // $('#btnJugar').click(function () {
   //   console.log("entroooooo!!");
   //   alert("entroooooo!");

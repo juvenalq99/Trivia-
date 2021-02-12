@@ -12,7 +12,7 @@ body {
 .cont-1 {
   width: 600px;
   height: 400px;
-  background-color: aquamarine;
+  background-color: white;;
   margin: auto;
   margin-top: 20px;
 }
@@ -89,7 +89,7 @@ body {
   background: #fff;
 }
 
-/* Titulo */
+/* Titulo con animacion */
 @import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
 
 h1 {
@@ -106,22 +106,6 @@ h1 {
   animation: blink 3s infinite;
   -webkit-animation: blink 3s infinite;
 }
-/* 
-body {
-  padding: 2vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: #222;
-  background-image: repeating-linear-gradient(
-    to bottom,
-    transparent 7px,
-    rgba(0, 0, 0, 0.8) 9px,
-    rgba(0, 0, 0, 0.8) 13px,
-    transparent 13px
-  );
-} */
 
 @-webkit-keyframes blink {
   20%,
@@ -171,4 +155,60 @@ body {
       0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
     color: #fff6a9;
   }
+}
+
+/* Maquetado de preguntas  */
+
+.questionbank{
+  background-color: #95bbd1f1;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+
+.askuser{
+  margin: auto;
+  width: 90%;
+  height: 130px;
+  background: black;
+  margin: 20px;
+  
+}
+.question{
+  font-size: 20px;
+  font-family: cursive;
+  text-align: center;
+  padding: 3px;
+  color: aliceblue;
+}
+
+.answer{
+  width: 90%;
+  height: 210px;
+  margin: auto;
+  margin-top: 20px;
+  background: content-box;
+  padding: 5px;
+  border: 1px solid black;
+}
+.selection{
+  width: 90%;
+  height: 40px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: cursive;
+  background: aqua;
+}
+
+.outselection{
+  width: 90%;
+  height: 40px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: cursive;
+  background: red;
 }
